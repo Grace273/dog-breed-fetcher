@@ -8,6 +8,22 @@ import java.util.Set;
 
 import static org.junit.jupiter.api.Assertions.*;
 
+/**
+ * {
+ *   "message": [
+ *     "afghan",
+ *     "basset",
+ *     "blood",
+ *     "english",
+ *     "ibizan",
+ *     "plott",
+ *     "walker"
+ *   ],
+ *   "status": "success"
+ * }
+ *  the url for making the call would be "https://dog.ceo/api/breed/{breed}/list"
+ *  */
+
 class DogApiBreedFetcherTest {
 
     @Test
